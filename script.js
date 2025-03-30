@@ -9,7 +9,7 @@ window.addEventListener('scroll', function(){
   let offsetHeight = document.body.offsetHeight;
   
   if (scrollY + innerHeight >= offsetHeight) {
-    infiniteScroll(2);
+    infiniteScroll(5);
   }
 });
 
