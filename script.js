@@ -13,7 +13,7 @@ window.addEventListener('scroll', function(){
   }
 });
 
-infiniteScroll(10);
+infiniteScroll(20);
 
 function infiniteScroll(num) {
   for (let i = 0; i < num; i++) {
